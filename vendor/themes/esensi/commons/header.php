@@ -15,6 +15,7 @@
           <img src="<?= gambar_desa($desa['logo']) ?>" alt="Logo <?= ucfirst($this->setting->sebutan_desa).' '.ucwords($desa['nama_desa']) ?>" class="h-16 mx-auto pb-2">
         </figure>
 <<<<<<< HEAD
+<<<<<<< HEAD
         <span class="text-h2 block"><?= NAMA_DESA ?></span>
 =======
 <<<<<<< HEAD
@@ -27,6 +28,9 @@
         <span class="text-h2 block" id="dummy" style="visibility: hidden; width: 100%; white-space: nowrap;"><?= NAMA_DESA ?></span>
 >>>>>>> f23a740 (2308.0.0)
 >>>>>>> origin/test1
+=======
+        <span class="text-h2 block"><?= NAMA_DESA ?></span>
+>>>>>>> origin/test2
         <p><?= ucfirst($this->setting->sebutan_kecamatan_singkat) ?>
           <?= ucwords($desa['nama_kecamatan']) ?>,
           <?= ucfirst($this->setting->sebutan_kabupaten_singkat) ?>
@@ -68,6 +72,7 @@
   <?php $this->load->view($folder_themes .'/commons/main_menu') ?>
   <?php $this->load->view($folder_themes .'/commons/mobile_menu') ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -98,4 +103,6 @@
   </script>
 >>>>>>> f23a740 (2308.0.0)
 >>>>>>> origin/test1
+=======
+>>>>>>> origin/test2
 </div>

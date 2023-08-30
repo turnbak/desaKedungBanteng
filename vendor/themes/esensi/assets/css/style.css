@@ -35,12 +35,15 @@ html {
 2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
 
 >>>>>>> f23a740 (2308.0.0)
 >>>>>>> origin/test1
+=======
+>>>>>>> origin/test2
 body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
@@ -3603,6 +3606,7 @@ textarea.form-control.is-invalid {
   }
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 =======
@@ -3615,10 +3619,13 @@ textarea.form-control.is-invalid {
 
 >>>>>>> f23a740 (2308.0.0)
 >>>>>>> origin/test1
+=======
+>>>>>>> origin/test2
 .text-h2 {
   font-size: 1.5rem;
   line-height: 2rem;
   font-weight: 700;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3626,11 +3633,14 @@ textarea.form-control.is-invalid {
   width: 50%;
 >>>>>>> f23a740 (2308.0.0)
 >>>>>>> origin/test1
+=======
+>>>>>>> origin/test2
 }
 @media (min-width: 1024px) {
   .text-h2 {
     font-size: 1.875rem;
     line-height: 2.25rem;
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 <<<<<<< HEAD
@@ -3638,6 +3648,8 @@ textarea.form-control.is-invalid {
     width: 100%;
 >>>>>>> f23a740 (2308.0.0)
 >>>>>>> origin/test1
+=======
+>>>>>>> origin/test2
   }
 }
 .text-h3 {
