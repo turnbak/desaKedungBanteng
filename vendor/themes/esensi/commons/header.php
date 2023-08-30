@@ -14,7 +14,19 @@
         <figure>
           <img src="<?= gambar_desa($desa['logo']) ?>" alt="Logo <?= ucfirst($this->setting->sebutan_desa).' '.ucwords($desa['nama_desa']) ?>" class="h-16 mx-auto pb-2">
         </figure>
+<<<<<<< HEAD
         <span class="text-h2 block"><?= NAMA_DESA ?></span>
+=======
+<<<<<<< HEAD
+        <span class="text-h2 block"><?= NAMA_DESA ?></span>
+=======
+        <!-- <span class="text-h2 block"><?= NAMA_DESA ?></span> -->
+        <!-- Elemen teks mengetik -->
+        <span class="text-h2 block" id="nama_desa" style="position: absolute; width: 100%; white-space: nowrap;"><?= NAMA_DESA ?></span>
+        <!-- Elemen "dummy" -->
+        <span class="text-h2 block" id="dummy" style="visibility: hidden; width: 100%; white-space: nowrap;"><?= NAMA_DESA ?></span>
+>>>>>>> f23a740 (2308.0.0)
+>>>>>>> origin/test1
         <p><?= ucfirst($this->setting->sebutan_kecamatan_singkat) ?>
           <?= ucwords($desa['nama_kecamatan']) ?>,
           <?= ucfirst($this->setting->sebutan_kabupaten_singkat) ?>
@@ -55,4 +67,35 @@
   </header>
   <?php $this->load->view($folder_themes .'/commons/main_menu') ?>
   <?php $this->load->view($folder_themes .'/commons/mobile_menu') ?>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+  <script defer>
+    function animateTyping(element, text, delay) {
+    let charIndex = 0;
+    const timer = setInterval(function() {
+      if (charIndex <= text.length) {
+        element.textContent = text.substr(0, charIndex);
+        charIndex++;
+      } else {
+        clearInterval(timer);
+        setTimeout(function() {
+          animateTyping(element, text, delay); // Loop untuk animasi tanpa henti
+        }, delay);
+      }
+    }, delay);
+  }
+  
+  window.onload = function() {
+    // Panggil fungsi animateTyping dengan elemen dan teks yang ingin dianimasikan
+    const namaDesaElement = document.getElementById('nama_desa');
+    const namaDesaText = namaDesaElement.textContent;
+    const delay = 150; // Kecepatan animasi (ms per karakter)
+  
+    animateTyping(namaDesaElement, namaDesaText, delay);
+  };
+  </script>
+>>>>>>> f23a740 (2308.0.0)
+>>>>>>> origin/test1
 </div>
